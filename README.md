@@ -30,3 +30,41 @@ GymPass style app.
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+## Docker
+
+### Comando para criar um container com imagem de forma nativa com o banco postgresql.
+
+``
+    docker run --name <nome da imagem> -e POSTGRESQL_USERNAME=<username> -e POSTGRESQL_PASSWORD=<password> -e POSTGRESQL_DATABASE=<databasename> -p 5432:5432 bitnami/postgresql:latest
+``
+
+### Comando para subir um container de forma nativa.
+
+``
+    docker start <nome do container>
+``
+
+### Comando para pausar um container de forma nativa.
+
+``
+    docker stop <nome do container>
+``
+
+### Comando para excluir um container de forma nativa.
+
+``
+    docker rm <nome do container>
+``
+
+### Comando para consultar os containers ativos de forma nativa.
+
+``
+    docker ps
+``
+
+### Comando para consultar todos containers que estão em sua maquina de forma nativa.
+
+``
+    docker ps -a
+``

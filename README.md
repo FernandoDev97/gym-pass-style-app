@@ -89,4 +89,5 @@ GymPass style app.
 
 
 [Link para instalar o docker e docker-compose no ubunto 22.04](https://rosnertech.com.br/instalando-o-docker-no-ubuntu-22-04/)
+
 [Link da doc explicando sobre as permiçoes no docker](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)

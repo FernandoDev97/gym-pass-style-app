@@ -68,3 +68,25 @@ GymPass style app.
 ``
     docker ps -a
 ``
+
+### Comando para criar e subir um container com docker compose e com o banco postgresql.
+
+``
+    docker-compose up -d
+``
+
+### Comando para pausar um container com docker compose .
+
+``
+    docker-compose stop
+``
+
+### Comando para excluir todos os container com docker compose (sempre evitar esse comando).
+
+``
+    docker-compose down
+``
+
+
+[Link para instalar o docker e docker-compose no ubunto 22.04](https://rosnertech.com.br/instalando-o-docker-no-ubuntu-22-04/)
+[Link da doc explicando sobre as permiçoes no docker](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)

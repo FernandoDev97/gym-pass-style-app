@@ -42,19 +42,19 @@ GymPass style app.
 ### Comando para subir um container de forma nativa.
 
 ``
-    docker start <nome do container>
+    docker start <nome da imagem>
 ``
 
 ### Comando para pausar um container de forma nativa.
 
 ``
-    docker stop <nome do container>
+    docker stop <nome da imagem>
 ``
 
 ### Comando para excluir um container de forma nativa.
 
 ``
-    docker rm <nome do container>
+    docker rm <nome da imagem>
 ``
 
 ### Comando para consultar os containers ativos de forma nativa.

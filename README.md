@@ -4,7 +4,7 @@ GymPass style app.
 
 ## RFs (Requisitos funcionais)
 
-- [ ] Deve ser possível se cadastrar;
+- [x] Deve ser possível se cadastrar;
 - [ ] Deve ser possível se autenticar;
 - [ ] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
@@ -17,7 +17,7 @@ GymPass style app.
 
 ## RNs (Regras de negócio)
 
-- [ ] O usuário não deve poder se cadastrar com um e-mail duplicado;
+- [x] O usuário não deve poder se cadastrar com um e-mail duplicado;
 - [ ] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [ ] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
 - [ ] O check-in só pode ser validado até 20 minutos após ser criado;
@@ -26,8 +26,8 @@ GymPass style app.
 
 ## RNFs (Requisitos não-funcionais)
 
-- [ ] A senha do usuário precisa estar criptografada;
-- [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
+- [x] A senha do usuário precisa estar criptografada;
+- [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
@@ -91,3 +91,29 @@ GymPass style app.
 [Link para instalar o docker e docker-compose no ubunto 22.04](https://rosnertech.com.br/instalando-o-docker-no-ubuntu-22-04/)
 
 [Link da doc explicando sobre as permiçoes no docker](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
+
+## Prisma ORM (Camandos em ordem)
+
+### Comando para instalar o Prisma
+
+``
+    npm i prisma - D
+``
+
+### Comando pra inicializar o Prisma
+
+``
+    npx prisma init
+``
+
+### Comando para instalar o Prisma Client
+
+``
+    npm i @prisma/client
+``
+
+### Comando para gerar as models integrando ao typesripyt
+
+``
+    npx prisma generate
+``

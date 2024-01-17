@@ -117,3 +117,15 @@ GymPass style app.
 ``
     npx prisma generate
 ``
+
+### Comando para criar uma migration
+
+``
+    npx prisma migrate dev
+``
+
+### Comando para rodar localmente o studio do prisma
+
+``
+    npx prisma studio
+``

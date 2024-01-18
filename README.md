@@ -124,7 +124,7 @@ GymPass style app.
     npx prisma migrate dev
 ``
 
-### Comando para rodar localmente o studio do prisma
+### Comando para rodar localmente o studio do prisma client
 
 ``
     npx prisma studio
